@@ -361,8 +361,8 @@
 		<option name="margin_y" value="10" type="int" />
 		<option name="background_color" value="0ccfff" type="string" />
 		<option name="background_alpha" value="0.30000762951094834" type="float" />
-		<option name="item_spacer" value="5" type="int" />
-		<option name="border_radius" value="7" type="int" />
+		<option name="item_spacer" value="3" type="int" />
+		<option name="border_radius" value="4" type="int" />
 		<option name="full_size" value="false" type="bool" />
 		<option name="use_out_effect" value="true" type="bool" />
 		<option name="item_out_border_width" value="0" type="int" />
@@ -395,8 +395,8 @@
 		<option name="padding_main" value="10" type="int" />
 		<option name="padding_sub" value="10" type="int" />
 		<option name="text_align" value="right" type="string" />
-		<option name="item_thumb_max_width" value="160" type="int" />
-		<option name="item_thumb_max_height" value="80" type="int" />
+		<option name="item_thumb_max_width" value="100" type="int" />
+		<option name="item_thumb_max_height" value="35" type="int" />
 		
 		<option name="zorder" value="2" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
@@ -416,6 +416,10 @@
 								thumbnail="Medicare Farmavitadata/kati_1_pano_5_25/thumbnail.jpg"
 							cssClass="pano25">
 						
+								<option name="item_out_bg_color" value="04a086" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="04c0a1" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_1_item_2"
@@ -424,6 +428,10 @@
 								thumbnail="Medicare Farmavitadata/kati_1_pano_1_22/thumbnail.jpg"
 							cssClass="pano22">
 						
+								<option name="item_out_bg_color" value="04a086" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="04c0a1" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_1_item_3"
@@ -432,6 +440,10 @@
 								thumbnail="Medicare Farmavitadata/kati_1_pano_2_23/thumbnail.jpg"
 							cssClass="pano23">
 						
+								<option name="item_out_bg_color" value="04a086" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="04c0a1" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_1_item_4"
@@ -440,6 +452,10 @@
 								thumbnail="Medicare Farmavitadata/kati_1_pano_3_24/thumbnail.jpg"
 							cssClass="pano24">
 						
+								<option name="item_out_bg_color" value="04a086" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="04c0a1" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_1_item_5"
@@ -448,6 +464,10 @@
 								thumbnail="Medicare Farmavitadata/kati_pano_4_27/thumbnail.jpg"
 							cssClass="pano27">
 						
+								<option name="item_out_bg_color" value="04a086" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="04c0a1" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_1_item_6"
@@ -456,6 +476,10 @@
 								thumbnail="Medicare Farmavitadata/kati_1_pano_6_26/thumbnail.jpg"
 							cssClass="pano26">
 						
+								<option name="item_out_bg_color" value="04a086" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="04c0a1" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_1_item_7"
@@ -464,10 +488,15 @@
 								thumbnail="Medicare Farmavitadata/kati_1_hyrja_parking_102/thumbnail.jpg"
 							cssClass="pano102">
 						
+								<option name="item_out_bg_color" value="04a086" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="04c0a1" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 					
-					
+						<option name="background_color" value="04a086" type="string" />
+						<option name="background_alpha" value="1" type="float" />
 					
 				</group>
 				<group name="group_2"
@@ -484,6 +513,10 @@
 								thumbnail="Medicare Farmavitadata/kati__1_foto_1_107/thumbnail.jpg"
 							cssClass="pano107">
 						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_2_item_2"
@@ -492,6 +525,10 @@
 								thumbnail="Medicare Farmavitadata/kati__1_foto_2_108/thumbnail.jpg"
 							cssClass="pano108">
 						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_2_item_3"
@@ -500,10 +537,15 @@
 								thumbnail="Medicare Farmavitadata/kati__1_foto_3_106/thumbnail.jpg"
 							cssClass="pano106">
 						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 					
-					
+						<option name="background_color" value="646464" type="string" />
+						<option name="background_alpha" value="1" type="float" />
 					
 				</group>
 				<group name="group_3"
@@ -520,6 +562,10 @@
 								thumbnail="Medicare Farmavitadata/kati_2_foto_1_120/thumbnail.jpg"
 							cssClass="pano120">
 						
+								<option name="item_out_bg_color" value="b099c8" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="d4b8f0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_3_item_2"
@@ -528,6 +574,10 @@
 								thumbnail="Medicare Farmavitadata/kati_2_foto_2_121/thumbnail.jpg"
 							cssClass="pano121">
 						
+								<option name="item_out_bg_color" value="b099c8" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="d4b8f0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_3_item_3"
@@ -536,6 +586,10 @@
 								thumbnail="Medicare Farmavitadata/kati_2_foto_3_122/thumbnail.jpg"
 							cssClass="pano122">
 						
+								<option name="item_out_bg_color" value="b099c8" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="d4b8f0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_3_item_4"
@@ -544,10 +598,15 @@
 								thumbnail="Medicare Farmavitadata/kati_2foto_4_123/thumbnail.jpg"
 							cssClass="pano123">
 						
+								<option name="item_out_bg_color" value="b099c8" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="d4b8f0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 					
-					
+						<option name="background_color" value="b099c8" type="string" />
+						<option name="background_alpha" value="1" type="float" />
 					
 				</group>
 				<group name="group_4"
@@ -564,6 +623,10 @@
 								thumbnail="Medicare Farmavitadata/kati_3_foto_1_140/thumbnail.jpg"
 							cssClass="pano140">
 						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_4_item_2"
@@ -572,6 +635,10 @@
 								thumbnail="Medicare Farmavitadata/kati_3_foto_3_141/thumbnail.jpg"
 							cssClass="pano141">
 						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_4_item_3"
@@ -580,6 +647,10 @@
 								thumbnail="Medicare Farmavitadata/kati_3_foto_4_143/thumbnail.jpg"
 							cssClass="pano143">
 						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_4_item_4"
@@ -588,6 +659,10 @@
 								thumbnail="Medicare Farmavitadata/kati_3_foto_2_142/thumbnail.jpg"
 							cssClass="pano142">
 						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_4_item_5"
@@ -596,10 +671,15 @@
 								thumbnail="Medicare Farmavitadata/kati_3_foto_5_144/thumbnail.jpg"
 							cssClass="pano144">
 						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 					
-					
+						<option name="background_color" value="787878" type="string" />
+						<option name="background_alpha" value="1" type="float" />
 					
 				</group>
 				<group name="group_5"
@@ -616,6 +696,10 @@
 								thumbnail="Medicare Farmavitadata/kati_4_foto_1_168/thumbnail.jpg"
 							cssClass="pano168">
 						
+								<option name="item_out_bg_color" value="b4b4b4" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="d8d8d8" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_5_item_2"
@@ -624,6 +708,10 @@
 								thumbnail="Medicare Farmavitadata/kati_4_foto_2_167/thumbnail.jpg"
 							cssClass="pano167">
 						
+								<option name="item_out_bg_color" value="b4b4b4" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="d8d8d8" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 						<item name="group_5_item_3"
@@ -632,10 +720,15 @@
 								thumbnail="Medicare Farmavitadata/kati_4_foto_3_169/thumbnail.jpg"
 							cssClass="pano169">
 						
+								<option name="item_out_bg_color" value="b4b4b4" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="d8d8d8" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
 						
 						</item>
 					
-					
+						<option name="background_color" value="b4b4b4" type="string" />
+						<option name="background_alpha" value="1" type="float" />
 					
 				</group>
 	</internaldata>
