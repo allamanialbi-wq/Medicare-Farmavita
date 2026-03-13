@@ -305,6 +305,7 @@
   </action>
   <action name="preloadSounds">
     preloadsound("elvisi_sound_vr.mp3");
+    preloadsound("tetrica_aurora_song.mp3");
   </action>
 
   <action name="play3DLocalSounds">
