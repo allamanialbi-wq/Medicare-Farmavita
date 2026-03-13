@@ -354,8 +354,8 @@
 
 <ptplugin name="panoramaMenu" engine="kolorMenu">
 	<settings>
-		<option name="position" value="left" type="string" />
-		<option name="orientation" value="vertical" type="string" />
+		<option name="position" value="top" type="string" />
+		<option name="orientation" value="horizontal" type="string" />
 		<option name="sub_orientation" value="vertical" type="string" />
 		<option name="margin_x" value="10" type="int" />
 		<option name="margin_y" value="10" type="int" />
