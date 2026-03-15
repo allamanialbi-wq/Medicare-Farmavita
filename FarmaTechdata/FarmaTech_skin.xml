@@ -913,7 +913,7 @@ openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=..
 
   <layer name="button1"
          keep="true"
-         url="%FIRSTXML%/graphics/button1/_4726010.png"
+         url="%FIRSTXML%/graphics/button1/pdf-icon-png-pdf-zum-download-2.png"
          align="right"
          x="5"
          y="75"
@@ -924,7 +924,7 @@ openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=..
          onhover="showTooltip('plugin');"
          onout="hideTooltip();"
          height="50"
-         width="50"
+         width="40"
          />
 
 
