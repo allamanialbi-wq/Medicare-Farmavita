@@ -913,9 +913,9 @@
   <layer name="button3"
          keep="true"
          url="%FIRSTXML%/graphics/button3/pdf-icon-png-pdf-zum-download-2.png"
-         align="left"
+         align="right"
          x="5"
-         y="5"
+         y="145"
          zorder="7"
          visible="false"
          onclick="button3OnClick"
@@ -987,9 +987,9 @@
   <layer name="button2"
          keep="true"
          url="%FIRSTXML%/graphics/button2/pdf-icon-png-pdf-zum-download-2.png"
-         align="left"
+         align="right"
          x="5"
-         y="75"
+         y="-65"
          zorder="9"
          visible="false"
          onclick="button2OnClick"
@@ -1014,6 +1014,43 @@
     keep="true" />
   <action name="hidebutton2">set(layer[button2].visible, false);</action>
   <action name="showbutton2">if(tour_displaycontrols,set(layer[button2].visible, true);,hidebutton2(););</action>
+
+
+<!-- ********** -->
+<!-- Button4 -->
+<!-- id : button4 -->
+<!-- ********** -->
+
+  <layer name="button4"
+         keep="true"
+         url="%FIRSTXML%/graphics/button4/pdf-icon-png-pdf-zum-download-2.png"
+         align="right"
+         x="5"
+         y="-135"
+         zorder="10"
+         visible="false"
+         onclick="button4OnClick"
+         tooltip="button4tooltip"
+         onhover="showTooltip('plugin');"
+         onout="hideTooltip();"
+         height="50"
+         width="40"
+         />
+
+
+
+  <action name="button4OnClick">openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button4/ascensore_orona_2195463-des__2_.pdf", button4onclick103390PdfViewer|PdfViewer|displaypdfpdf_title);
+
+
+  </action>
+
+  <events name="button4events"
+    onTourStart="showbutton4();"
+    hidetourcontrols="hidebutton4();"
+    showtourcontrols="showbutton4();"
+    keep="true" />
+  <action name="hidebutton4">set(layer[button4].visible, false);</action>
+  <action name="showbutton4">if(tour_displaycontrols,set(layer[button4].visible, true);,hidebutton4(););</action>
 
 
 <!-- ********** -->
@@ -1072,7 +1109,7 @@
 		<option name="iframe_devices_height" value="5000" type="int" />
 		<option name="force_ios_scrolling" value="true" type="bool" />
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_PdfViewer')" type="string" />
-		<option name="zorder" value="10" type="int" />
+		<option name="zorder" value="11" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
