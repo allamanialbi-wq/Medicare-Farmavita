@@ -120,14 +120,14 @@
 
 
 
-  <data name="en_PdfViewerfullscreen_text"><![CDATA[Fullscreen mode]]></data>
-  <data name="en_PdfViewerclose_text"><![CDATA[Close]]></data>
-  <data name="en_buttontooltip"><![CDATA[pdf 1]]></data>
+  <data name="en_buttontooltip"><![CDATA[PDF Download]]></data>
   <data name="en_buttononclick103390PdfViewer|PdfViewer|displaypdfpdf_title"><![CDATA[THERMO-GUM Riempitivo]]></data>
   <data name="en_buttononclick102511PdfViewer|PdfViewer|displaypdfpdf_title"><![CDATA[CONCRETE_HARDENER_H10_WP_Antibacterial]]></data>
-  <data name="en_button1tooltip"><![CDATA[pdf 2]]></data>
+  <data name="en_button1tooltip"><![CDATA[PDF Download]]></data>
   <data name="en_button1onclick104733PdfViewer|PdfViewer|displaypdfpdf_title"><![CDATA[NANOFIX]]></data>
   <data name="en_button1onclick105964PdfViewer|PdfViewer|displaypdfpdf_title"><![CDATA[FARMATECH Glass]]></data>
+  <data name="en_PdfViewerfullscreen_text"><![CDATA[Fullscreen mode]]></data>
+  <data name="en_PdfViewerclose_text"><![CDATA[Close]]></data>
 
 
   <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>

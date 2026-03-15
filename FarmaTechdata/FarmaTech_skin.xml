@@ -869,6 +869,82 @@
 	</action>
 
 <!-- ********** -->
+<!-- Button -->
+<!-- id : button -->
+<!-- ********** -->
+
+  <layer name="button"
+         keep="true"
+         url="%FIRSTXML%/graphics/button/_4726010.png"
+         align="right"
+         x="5"
+         y="5"
+         zorder="6"
+         visible="false"
+         onclick="buttonOnClick"
+         tooltip="buttontooltip"
+         onhover="showTooltip('plugin');"
+         onout="hideTooltip();"
+         height="50"
+         width="50"
+         />
+
+
+
+  <action name="buttonOnClick">openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button/thermo-gum_riempitivo_st_rif. 2405 (1).pdf", buttononclick103390PdfViewer|PdfViewer|displaypdfpdf_title);
+openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button/concrete_hardener_h10_wp_antibacterial_ita_09_06_2021.pdf", buttononclick102511PdfViewer|PdfViewer|displaypdfpdf_title);
+
+
+  </action>
+
+  <events name="buttonevents"
+    onTourStart="showbutton();"
+    hidetourcontrols="hidebutton();"
+    showtourcontrols="showbutton();"
+    keep="true" />
+  <action name="hidebutton">set(layer[button].visible, false);</action>
+  <action name="showbutton">if(tour_displaycontrols,set(layer[button].visible, true);,hidebutton(););</action>
+
+
+<!-- ********** -->
+<!-- Button1 -->
+<!-- id : button1 -->
+<!-- ********** -->
+
+  <layer name="button1"
+         keep="true"
+         url="%FIRSTXML%/graphics/button1/_4726010.png"
+         align="right"
+         x="5"
+         y="75"
+         zorder="7"
+         visible="false"
+         onclick="button1OnClick"
+         tooltip="button1tooltip"
+         onhover="showTooltip('plugin');"
+         onout="hideTooltip();"
+         height="50"
+         width="50"
+         />
+
+
+
+  <action name="button1OnClick">openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button1/nanofix_st_rif. 2212 (1).pdf", button1onclick104733PdfViewer|PdfViewer|displaypdfpdf_title);
+openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button1/farmatech_glass.pdf", button1onclick105964PdfViewer|PdfViewer|displaypdfpdf_title);
+
+
+  </action>
+
+  <events name="button1events"
+    onTourStart="showbutton1();"
+    hidetourcontrols="hidebutton1();"
+    showtourcontrols="showbutton1();"
+    keep="true" />
+  <action name="hidebutton1">set(layer[button1].visible, false);</action>
+  <action name="showbutton1">if(tour_displaycontrols,set(layer[button1].visible, true);,hidebutton1(););</action>
+
+
+<!-- ********** -->
 <!-- PDF Box -->
 <!-- id : PdfViewer -->
 <!-- ********** -->
@@ -924,7 +1000,7 @@
 		<option name="iframe_devices_height" value="5000" type="int" />
 		<option name="force_ios_scrolling" value="true" type="bool" />
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_PdfViewer')" type="string" />
-		<option name="zorder" value="6" type="int" />
+		<option name="zorder" value="8" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -981,82 +1057,6 @@
 	keep="true"
 	changetourlanguage="changeLanguage_PdfViewer();"
 	/>
-
-<!-- ********** -->
-<!-- Button -->
-<!-- id : button -->
-<!-- ********** -->
-
-  <layer name="button"
-         keep="true"
-         url="%FIRSTXML%/graphics/button/_4726010.png"
-         align="right"
-         x="5"
-         y="5"
-         zorder="7"
-         visible="false"
-         onclick="buttonOnClick"
-         tooltip="buttontooltip"
-         onhover="showTooltip('plugin');"
-         onout="hideTooltip();"
-         height="50"
-         width="50"
-         />
-
-
-
-  <action name="buttonOnClick">openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button/thermo-gum_riempitivo_st_rif. 2405 (1).pdf", buttononclick103390PdfViewer|PdfViewer|displaypdfpdf_title);
-openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button/concrete_hardener_h10_wp_antibacterial_ita_09_06_2021.pdf", buttononclick102511PdfViewer|PdfViewer|displaypdfpdf_title);
-
-
-  </action>
-
-  <events name="buttonevents"
-    onTourStart="showbutton();"
-    hidetourcontrols="hidebutton();"
-    showtourcontrols="showbutton();"
-    keep="true" />
-  <action name="hidebutton">set(layer[button].visible, false);</action>
-  <action name="showbutton">if(tour_displaycontrols,set(layer[button].visible, true);,hidebutton(););</action>
-
-
-<!-- ********** -->
-<!-- Button1 -->
-<!-- id : button1 -->
-<!-- ********** -->
-
-  <layer name="button1"
-         keep="true"
-         url="%FIRSTXML%/graphics/button1/_4726010.png"
-         align="left"
-         x="5"
-         y="5"
-         zorder="8"
-         visible="false"
-         onclick="button1OnClick"
-         tooltip="button1tooltip"
-         onhover="showTooltip('plugin');"
-         onout="hideTooltip();"
-         height="50"
-         width="50"
-         />
-
-
-
-  <action name="button1OnClick">openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button1/nanofix_st_rif. 2212 (1).pdf", button1onclick104733PdfViewer|PdfViewer|displaypdfpdf_title);
-openPDF_PdfViewer("FarmaTechdata/graphics/KolorBox/pdfjs/web/viewer.html?file=../../../../graphics/button1/farmatech_glass.pdf", button1onclick105964PdfViewer|PdfViewer|displaypdfpdf_title);
-
-
-  </action>
-
-  <events name="button1events"
-    onTourStart="showbutton1();"
-    hidetourcontrols="hidebutton1();"
-    showtourcontrols="showbutton1();"
-    keep="true" />
-  <action name="hidebutton1">set(layer[button1].visible, false);</action>
-  <action name="showbutton1">if(tour_displaycontrols,set(layer[button1].visible, true);,hidebutton1(););</action>
-
 
   <!-- Fullscreen Management -->
   <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
