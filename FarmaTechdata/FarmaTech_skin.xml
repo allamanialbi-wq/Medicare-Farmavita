@@ -875,7 +875,7 @@
 
   <layer name="button"
          keep="true"
-         url="%FIRSTXML%/graphics/button/_4726010.png"
+         url="%FIRSTXML%/graphics/button/pdf-icon-png-pdf-zum-download-2.png"
          align="right"
          x="5"
          y="5"
@@ -886,7 +886,7 @@
          onhover="showTooltip('plugin');"
          onout="hideTooltip();"
          height="50"
-         width="50"
+         width="40"
          />
 
 
